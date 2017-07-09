@@ -1,6 +1,7 @@
 require 'ansi/code'
 require 'slim'
 
+set :layout, :_auto_layout
 set :slim, :layout_engine => :slim, :format => :html
 
 configure :build do
