@@ -1,8 +1,6 @@
 require 'ansi/code'
 require 'slim'
 
-Time.zone = 'Tokyo'
-
 set :slim, :layout_engine => :slim, :format => :html
 
 configure :build do
